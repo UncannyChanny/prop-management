@@ -11,9 +11,10 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
 
+import HeaderWrapper from './components/headerWrapper';
 import Signup from './components/auth/signup';
 import Signin from './components/auth/signin';
-import HeaderWrapper from './components/headerWrapper';
+
 
 
 function main() {
